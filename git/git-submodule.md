@@ -3,11 +3,27 @@
 ## Commands
 
 - add
+- update
+- summary
 - deinit
 
 ## Usage
 
 ### Add Submodule
+
+### Update Submodule
+
+Update to remote version
+
+```shell
+git submodule update --remote
+```
+
+Update to local commit version
+
+```shell
+git submodule update
+```
 
 ### Delete Submodule
 
@@ -15,17 +31,17 @@
 
 ```shell
 # git submodule dinit -f <directory>
-git submodule deinit -f test_app
+git submodule deinit -f app
 ```
 
 #### 2. delete .git/modules
 
 ```shell
-rm -rf .git/modules/test_app
+rm -rf .git/modules/app
 ```
 
 #### 3. delete the folder
 
 ```shell
-git rm -f test_app
+git rm -f app
 ```
