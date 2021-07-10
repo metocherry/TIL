@@ -7,6 +7,7 @@
 - foreach
 - summary
 - deinit
+- init
 
 ## Usage
 
@@ -55,4 +56,10 @@ rm -rf .git/modules/app
 
 ```shell
 git rm -f app
+```
+
+### Init
+
+```shell
+git submodule init app
 ```
