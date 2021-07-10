@@ -1,5 +1,13 @@
 # Git Submodule
 
+## Clone
+
+with all submodules
+
+```shell
+git clone --recurse-submodules [remote_origin]
+```
+
 ## Commands
 
 - add
