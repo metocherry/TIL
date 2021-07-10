@@ -4,6 +4,7 @@
 
 - add
 - update
+- foreach
 - summary
 - deinit
 
@@ -19,10 +20,20 @@ Update to remote version
 git submodule update --remote
 ```
 
+```shell
+git submodule update --remote --recursive
+```
+
 Update to local commit version
 
 ```shell
 git submodule update
+```
+
+### Foreach Submodule
+
+```shell
+git submodule foreach git log --oneline
 ```
 
 ### Delete Submodule
