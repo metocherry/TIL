@@ -13,6 +13,7 @@
   - [Palpable Content](#palpable-content)
   - [Script Supporting Content](#script-supporting-content)
   - [Transparent Content Models](#transparent-content-models)
+- [References](#references)
 
 ## Element Content Categories
 
