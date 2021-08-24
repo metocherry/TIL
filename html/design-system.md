@@ -6,6 +6,8 @@
   - [Design Principles](#design-principles)
 - [Foundataion](#foundataion)
 - [Design System Process](#design-system-process)
+- [Research](#research)
+  - [Material](#material)
 
 ## Style Guide
 
@@ -38,3 +40,33 @@
 7. Style Guide
 8. Pattern Library
 9. System Guide
+
+## Research
+
+### Material
+
+#### 환경
+
+- Environment
+  - Surfaces
+  - Elevation
+  - Light and shadows
+- Layout
+  - Grid
+  - Spacing
+- Navigation
+
+#### 베이스
+
+- Color
+- Typographqy
+- Icongraphqy
+- Shape
+
+#### 응용
+
+- Motion
+- Sound
+- Interaction
+- Communication
+- Machine learning
